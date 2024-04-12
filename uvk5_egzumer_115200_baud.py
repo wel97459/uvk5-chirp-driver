@@ -769,7 +769,7 @@ class UVK5RadioEgzumer(chirp_common.CloneModeRadio):
     """Quansheng UV-K5 (egzumer)"""
     VENDOR = "Quansheng"
     MODEL = "UV-K5 (egzumer)"
-    BAUD_RATE = 250000
+    BAUD_RATE = 115200
     NEEDS_COMPAT_SERIAL = False
     FIRMWARE_VERSION = ""
 
